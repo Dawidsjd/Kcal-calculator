@@ -189,7 +189,7 @@ function createData(name, calories, totalFat, fat, carbo, fiber, sugar, protein)
 export default function Calculator(){
     return (
         <div className="main">
-            <input type="text" name="" id="input" class="from-text" onKeyDown={Event}/><i id="search" class="fas fa-search"></i>
+            <input type="text" name="" autocomplete="off" id="input" class="from-text" onKeyDown={Event}/><i id="search" class="fas fa-search"></i>
             <div className="grid-products">
             <div className="produkt_1">
             <section>
