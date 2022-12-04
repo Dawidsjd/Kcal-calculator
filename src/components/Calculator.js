@@ -202,14 +202,14 @@ export default function Calculator(){
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Produkt (porcja 100g)</TableCell>
-            <TableCell align="right">Kalorie</TableCell>
-            <TableCell align="right">Tłuszcz</TableCell>
-            <TableCell align="center">Tłuszcze<br/>nasycone</TableCell>
-            <TableCell align="right">Węglowodany</TableCell>
-            <TableCell align="right">Błonnik</TableCell>
-            <TableCell align="right">Cukier</TableCell>
-            <TableCell align="right">Białko</TableCell>
+            <TableCell><p class="text-table">Produkt (porcja 100g)</p></TableCell>
+            <TableCell align="center"><p class="text-table">Kalorie</p></TableCell>
+            <TableCell align="center"><p class="text-table">Tłuszcz</p></TableCell>
+            <TableCell align="center"><p class="text-table">Tłuszcze<br/>nasycone</p></TableCell>
+            <TableCell align="center"><p class="text-table">Węglowodany</p></TableCell>
+            <TableCell align="center"><p class="text-table">Błonnik</p></TableCell>
+            <TableCell align="center"><p class="text-table">Cukier</p></TableCell>
+            <TableCell align="center"><p class="text-table">Białko</p></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -218,16 +218,16 @@ export default function Calculator(){
               key={row.name}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
-              <TableCell component="th" scope="row" id="name">
-                
+              <TableCell component="th" scope="row">
+              <p class="text-table" id="name"></p>
               </TableCell>
-              <TableCell align="center" id="kcal"></TableCell>
-              <TableCell align="center" id="totalFat"></TableCell>
-              <TableCell align="center" id="Fat"></TableCell>
-              <TableCell align="center" id="carbo"></TableCell>
-              <TableCell align="center" id="blonnik"></TableCell>
-              <TableCell align="center" id="cukier"></TableCell>
-              <TableCell align="center" id="bialko"></TableCell>
+              <TableCell align="center"><p class="text-table" id="kcal"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="totalFat"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="Fat"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="carbo"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="blonnik"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="cukier"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="bialko"></p></TableCell>
             </TableRow>
           ))}
         </TableBody>
@@ -245,14 +245,14 @@ export default function Calculator(){
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Produkt (porcja 100g)</TableCell>
-            <TableCell align="right">Kalorie</TableCell>
-            <TableCell align="right">Tłuszcz</TableCell>
-            <TableCell align="center">Tłuszcze<br/>nasycone</TableCell>
-            <TableCell align="right">Węglowodany</TableCell>
-            <TableCell align="right">Błonnik</TableCell>
-            <TableCell align="right">Cukier</TableCell>
-            <TableCell align="right">Białko</TableCell>
+            <TableCell><p class="text-table">Produkt (porcja 100g)</p></TableCell>
+            <TableCell align="center"><p class="text-table">Kalorie</p></TableCell>
+            <TableCell align="center"><p class="text-table">Tłuszcz</p></TableCell>
+            <TableCell align="center"><p class="text-table">Tłuszcze<br/>nasycone</p></TableCell>
+            <TableCell align="center"><p class="text-table">Węglowodany</p></TableCell>
+            <TableCell align="center"><p class="text-table">Błonnik</p></TableCell>
+            <TableCell align="center"><p class="text-table">Cukier</p></TableCell>
+            <TableCell align="center"><p class="text-table">Białko</p></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -261,16 +261,16 @@ export default function Calculator(){
               key={row.name}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
-              <TableCell component="th" scope="row" id="name1">
-                
+              <TableCell component="th" scope="row">
+              <p class="text-table" id="name1"></p>
               </TableCell>
-              <TableCell align="center" id="kcal1"></TableCell>
-              <TableCell align="center" id="totalFat1"></TableCell>
-              <TableCell align="center" id="Fat1"></TableCell>
-              <TableCell align="center" id="carbo1"></TableCell>
-              <TableCell align="center" id="blonnik1"></TableCell>
-              <TableCell align="center" id="cukier1"></TableCell>
-              <TableCell align="center" id="bialko1"></TableCell>
+              <TableCell align="center"><p class="text-table" id="kcal1"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="totalFat1"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="Fat1"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="carbo1"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="blonnik1"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="cukier1"></p></TableCell>
+              <TableCell align="center"><p class="text-table" id="bialko1"></p></TableCell>
             </TableRow>
           ))}
         </TableBody>

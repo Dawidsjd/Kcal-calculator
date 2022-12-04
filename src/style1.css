@@ -52,5 +52,8 @@
 .table{
     background-color: #E7F6F2;
     border-radius: 5px;
-    font-size: 30px;
+}
+
+.text-table{
+    font-size: 15px;
 }
