@@ -163,14 +163,14 @@ function los() {
     gramy +
     ' g ' +
     '≈ ' +
-    (gramy / 1000).toFixed(1) +
+    (gramy / 1000).toFixed(2) +
     'kg  ' +
     document.getElementById('name1').innerHTML +
-    '<br>' +
+    '<br><br>' +
     ' <b>Ilość kalori ≈</b> ' +
     new_kcal +
     ' kcal' +
-    '<br>' +
+    '<br><br>' +
     '<b>Ostatecznie różnica gramow wynosi:</b> ' +
     roznica_gramow +
     ' g';
