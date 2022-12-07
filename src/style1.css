@@ -1,8 +1,10 @@
-.fas, .fa-search{
-    display: none;
+.fas,
+.fa-search {
+  display: none;
 }
 
-  #grid, #grid1{
+#grid,
+#grid1 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -10,7 +12,7 @@
   align-items: flex-start;
 }
 
-.img{
+.img {
   width: 380px;
   height: 214px;
   margin-top: 40px;
@@ -23,37 +25,97 @@
   border-radius: 5px;
 }
 
-.from-text{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 20%;
-    height: 40px;
-    font-size: larger;
-    border-radius: 10px;
+.from-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 40px;
+  font-size: larger;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.from-text::placeholder{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.main {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.grid-products {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+}
+
+.table {
+  background-color: #e7f6f2;
+  border-radius: 5px;
+}
+
+.text-table {
+  font-size: 15px;
+}
+
+#root {
+  width: 100%;
+}
+
+/* xd */
+@media (min-width: 320px) {
+  .table {
+    width: 100%;
+    box-shadow: 0px -0px 7px -2px black;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  th,
+  td {
+    padding: 9px;
     border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    height: 80px;
+  }
+  #porownanie {
+    box-shadow: 0px 3px 7px 1px;
+    padding: 25px;
+    border-radius: 20px;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 2.7em;
+  }
+  .box-produkt_1 {
+    max-width: 100%;
+  }
 }
 
-.main{
-    position: relative;
-    display: grid;
-    place-items: center;
-    
-}
-
-.grid-products{
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(1fr, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 25px;
-    grid-row-gap: 0px;
-}
-
-.table{
-    background-color: #E7F6F2;
-    border-radius: 5px;
-}
-
-.text-table{
-    font-size: 15px;
+@media (min-width: 1024px) {
+  .table {
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 25px;
+    border: 1px solid black;
+    text-align: center;
+  }
 }
